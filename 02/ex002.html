@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meu primeiro programa</title>
+    <style>
+        h1{
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            background-color: lightblue;
+            position: relative;
+        }
+        h1 > div{
+            position: absolute;
+            top: 40%;
+            left: 7%;
+            color: black;
+        }
+        div:hover{
+            color: lightblue;
+        }
+    </style>
+</head>
+<body>
+   <h1><div>Olá mundo!</div></h1>
+   <script>
+    var nome = window.prompt('Qual é seu nome?')
+    alert('Prazer em conhece-lo, ' + nome + "!") //concatenação
+   </script>
+</body>
+</html>
