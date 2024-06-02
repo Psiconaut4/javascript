@@ -25,12 +25,12 @@
         var país = window.document.getElementById('nac')
         var res = document.getElementById('resul')
         var pais = String(país.value)
-        if(pais != 'EUA'){
+        if(pais == 'EUA' || pais == 'EUR'){
+            res.innerText=`nascendo em ${pais} você é gringo!`
+            } else {  
             res.innerText=`Nascendo no ${pais} você não é gringo!`
-        } else{ 
-            res.innerText=`Você é gringo!`  
+            }
         } 
-       }
     </script>
 </body>
 </html>
