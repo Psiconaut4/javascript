@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RADAR</title>
+    <style>
+        h1{
+            font-family: sans-serif;
+            background-color: red;
+            color: rgba(255, 255, 0, 0.493);
+            margin: auto;
+            padding-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Você caiu no identificador de gringos</h1>
+    <p>Escreva sua nacionalidade: 
+        <input type="text" name="nac" id="nac">
+        <input type="button" value="Enviar" onclick="gringometro()"> </p>
+    <div id="resul"></div>
+    <script>
+       function gringometro(){
+        var país = window.document.getElementById('nac')
+        var res = document.getElementById('resul')
+        var pais = String(país.value)
+        if(pais != 'EUA'){
+            res.innerText=`Nascendo no ${pais} você não é gringo!`
+        } else{ 
+            res.innerText=`Você é gringo!`  
+        } 
+       }
+    </script>
+</body>
+</html>
