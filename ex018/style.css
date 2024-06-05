@@ -7,10 +7,10 @@ h1{
 }
 section{
     background-color: white;
-    border-radius: 20px;
+    border-radius: 7px;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.678);
     margin-bottom: 5px;
-    margin: auto;
+    padding-left: 10px;
 }
 footer{
     margin-top: 5px;
