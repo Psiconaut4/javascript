@@ -17,3 +17,13 @@ footer{
     font-style: italic;
     text-align: center;
 }
+div#res{
+    text-align: center;
+}
+img#foto{
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    padding-bottom: 10px;
+}
