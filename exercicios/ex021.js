@@ -6,6 +6,9 @@ let vetor = [1, 4, 6, 9]
     console.log(`Este vetor tem ${vetor.length} Posições.`)
 let pos = vetor.indexOf(2)
     console.log(`O número 2 está na ${pos} posição.`)
+    for(pos in vetor){
+        console.log(vetor[pos])
+    }
 
 
 
