@@ -1,8 +1,8 @@
 function parimpar(n){
     if (n%2 == 0){
-        console.log(`O número ${n} é PAR!`)
+        return 'PAR!'
     } else{
-        console.log('IMPAR!')
+        return 'IMPAR!'
     }
 }
-parimpar(5)
+console.log(parimpar(4))
