@@ -21,7 +21,9 @@ function InLista(n, l){
 
 function adicionar(){
     if (IsNumero(num.value) && !InLista(num.value, valores)) {
-        alert('Funcionando')
+        let item = document.createElement('option')  
+          item.text = (num.value)
+          lis.appendChild(item)
     } else {
         alert('Valor invalido ou já encontrado na lista.')
     }
