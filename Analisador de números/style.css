@@ -13,6 +13,9 @@ section{
     margin-bottom: 5px;
     margin: auto;
 }
+select#flist{
+    width: 150px;
+}
 footer{
     margin-top: 5px;
     font-style: italic;

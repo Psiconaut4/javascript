@@ -1,11 +1,28 @@
-function calc(){
-    var num = document.getElementById('txtnum')
-    var list = document.getElementById('list')
-    if (num.value.length == 0){
-        window.alert('Digite um valor válido.')
+let num = document.getElementById('fnum')
+let lis = document.getElementById('flist')
+let res = document.querySelector('div#res')
+var valores = []
+
+function IsNumero(n){
+    if(Number(n) >= 1 && Number(n) <= 100){
+        return true
     } else {
-        let item = document.createElement('option')
-        item.text = String(num)
-        list.appendChild(item)
+        return false
+    }
+}
+
+function InLista(n, l){
+    if(l.indexOf(Number(n)) != -1){
+        return true
+    } else {
+        return false
+    }
+}
+
+function adicionar(){
+    if (IsNumero(num.value) && !InLista(num.value, valores)) {
+        alert('Funcionando')
+    } else {
+        alert('Valor invalido ou já encontrado na lista.')
     }
 }
