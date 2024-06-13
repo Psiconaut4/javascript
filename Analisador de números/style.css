@@ -1,0 +1,20 @@
+body{
+    background-color: lightblue;
+    font: normal 15pt arial;
+}
+h1{
+    text-align: center;
+}
+section{
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.678);
+    margin-bottom: 5px;
+    margin: auto;
+}
+footer{
+    margin-top: 5px;
+    font-style: italic;
+    text-align: center;
+}
