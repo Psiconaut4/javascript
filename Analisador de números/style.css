@@ -1,6 +1,7 @@
 body{
     background-color: lightblue;
     font: normal 15pt arial;
+    margin: 50px;
 }
 h1{
     text-align: center;
@@ -8,7 +9,7 @@ h1{
 section{
     background-color: white;
     border-radius: 5px;
-    padding: 3px;
+    padding: 10px;
     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.678);
     margin-bottom: 5px;
     margin: auto;
