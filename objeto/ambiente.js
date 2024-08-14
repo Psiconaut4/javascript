@@ -6,5 +6,5 @@ amigo = {
         this.peso += p
     }
 }
-amigo.engordar(2)
+amigo.engordar()
 console.log(`O ${amigo.nome} pesa ${amigo.peso} `)
